@@ -1,0 +1,28 @@
+{
+  "name": "redocly-libs-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore './tmp'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriyl/redocly-libs-updater.git"
+  },
+  "author": "Andriy Leliv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andriyl/redocly-libs-updater/issues"
+  },
+  "homepage": "https://github.com/andriyl/redocly-libs-updater#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bitbucket": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
