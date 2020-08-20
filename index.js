@@ -18,7 +18,7 @@ async function run() {
     await downloadFile(props.workspace, props.repo_slug)
     console.log(`====> file: package.json has been downloaded`)
 
-    yarnUpdateScript()
+    await yarnUpdateScript()
 
     const commit = await makeCommit(props, commitMessage)
     console.log(`====> commit for repo has been added`)
